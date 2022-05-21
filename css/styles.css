@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-color{
+    color: #FF5829 !important;
+}
+.main-colorbg{
+    background-color: #FF5829 !important;
+}
+.link-light:hover{
+    color: #FF5829 !important;
+    font-weight: bold !important;
+}
+/* Hero section */
+
+  .hero-boxes{
+      display: none;
+  }
+
+  .about-img:hover img, .about-img:focus img{
+    transform: scale(1);
+  }
+  /* /* Services section  */
+
+
+@media screen and (min-width:450px){
+    /* Hero section */
+    .hero-boxes{
+        display: unset;
+    }
+    .hero-box-sm{
+        display: none;
+    }
+}
+@media screen and (min-width:900px) {
+    /* hero section */
+ .hero-container{
+     height: 100vh;
+ }
+  .hero-boxes{
+      display: unset;
+  }
+  /* About section */
+}
+
