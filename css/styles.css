@@ -20,8 +20,6 @@ body{
     transform: scale(1);
   }
 @media screen and (min-width:900px) {
- .hero-container{
-     height: 50vh;
- }
+
 }
 
